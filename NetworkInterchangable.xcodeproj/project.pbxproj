@@ -17,6 +17,7 @@
 		777CBB6E2B276E1E000DC395 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB6D2B276E1E000DC395 /* Constants.swift */; };
 		777CBB702B27734F000DC395 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 777CBB6F2B27734F000DC395 /* users.json */; };
 		777CBB722B277367000DC395 /* Localservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB712B277367000DC395 /* Localservice.swift */; };
+		777CBB742B2775B5000DC395 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB732B2775B5000DC395 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		777CBB6D2B276E1E000DC395 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		777CBB6F2B27734F000DC395 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		777CBB712B277367000DC395 /* Localservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localservice.swift; sourceTree = "<group>"; };
+		777CBB732B2775B5000DC395 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				777CBB672B2754A5000DC395 /* Webservice.swift */,
 				777CBB712B277367000DC395 /* Localservice.swift */,
+				777CBB732B2775B5000DC395 /* NetworkService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			files = (
 				777CBB722B277367000DC395 /* Localservice.swift in Sources */,
 				777CBB582B275433000DC395 /* ContentView.swift in Sources */,
+				777CBB742B2775B5000DC395 /* NetworkService.swift in Sources */,
 				777CBB652B275492000DC395 /* UserModel.swift in Sources */,
 				777CBB682B2754A5000DC395 /* Webservice.swift in Sources */,
 				777CBB6B2B276CFB000DC395 /* UserViewModel.swift in Sources */,
