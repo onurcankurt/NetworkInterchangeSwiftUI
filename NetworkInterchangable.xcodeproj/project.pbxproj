@@ -15,6 +15,8 @@
 		777CBB682B2754A5000DC395 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB672B2754A5000DC395 /* Webservice.swift */; };
 		777CBB6B2B276CFB000DC395 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB6A2B276CFB000DC395 /* UserViewModel.swift */; };
 		777CBB6E2B276E1E000DC395 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB6D2B276E1E000DC395 /* Constants.swift */; };
+		777CBB702B27734F000DC395 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 777CBB6F2B27734F000DC395 /* users.json */; };
+		777CBB722B277367000DC395 /* Localservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB712B277367000DC395 /* Localservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		777CBB672B2754A5000DC395 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		777CBB6A2B276CFB000DC395 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		777CBB6D2B276E1E000DC395 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		777CBB6F2B27734F000DC395 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		777CBB712B277367000DC395 /* Localservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		777CBB542B275433000DC395 /* NetworkInterchangable */ = {
 			isa = PBXGroup;
 			children = (
+				777CBB6F2B27734F000DC395 /* users.json */,
 				777CBB6C2B276E0D000DC395 /* Constants */,
 				777CBB692B2754AB000DC395 /* ViewModel */,
 				777CBB662B275497000DC395 /* Service */,
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				777CBB672B2754A5000DC395 /* Webservice.swift */,
+				777CBB712B277367000DC395 /* Localservice.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -169,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777CBB702B27734F000DC395 /* users.json in Resources */,
 				777CBB5D2B275434000DC395 /* Preview Assets.xcassets in Resources */,
 				777CBB5A2B275434000DC395 /* Assets.xcassets in Resources */,
 			);
@@ -181,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777CBB722B277367000DC395 /* Localservice.swift in Sources */,
 				777CBB582B275433000DC395 /* ContentView.swift in Sources */,
 				777CBB652B275492000DC395 /* UserModel.swift in Sources */,
 				777CBB682B2754A5000DC395 /* Webservice.swift in Sources */,
