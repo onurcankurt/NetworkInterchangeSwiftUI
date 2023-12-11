@@ -13,6 +13,8 @@
 		777CBB5D2B275434000DC395 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777CBB5C2B275434000DC395 /* Preview Assets.xcassets */; };
 		777CBB652B275492000DC395 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB642B275492000DC395 /* UserModel.swift */; };
 		777CBB682B2754A5000DC395 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB672B2754A5000DC395 /* Webservice.swift */; };
+		777CBB6B2B276CFB000DC395 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB6A2B276CFB000DC395 /* UserViewModel.swift */; };
+		777CBB6E2B276E1E000DC395 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB6D2B276E1E000DC395 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		777CBB5C2B275434000DC395 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		777CBB642B275492000DC395 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		777CBB672B2754A5000DC395 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		777CBB6A2B276CFB000DC395 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		777CBB6D2B276E1E000DC395 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		777CBB542B275433000DC395 /* NetworkInterchangable */ = {
 			isa = PBXGroup;
 			children = (
+				777CBB6C2B276E0D000DC395 /* Constants */,
 				777CBB692B2754AB000DC395 /* ViewModel */,
 				777CBB662B275497000DC395 /* Service */,
 				777CBB632B275476000DC395 /* Model */,
@@ -93,8 +98,17 @@
 		777CBB692B2754AB000DC395 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				777CBB6A2B276CFB000DC395 /* UserViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		777CBB6C2B276E0D000DC395 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				777CBB6D2B276E1E000DC395 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +184,9 @@
 				777CBB582B275433000DC395 /* ContentView.swift in Sources */,
 				777CBB652B275492000DC395 /* UserModel.swift in Sources */,
 				777CBB682B2754A5000DC395 /* Webservice.swift in Sources */,
+				777CBB6B2B276CFB000DC395 /* UserViewModel.swift in Sources */,
 				777CBB562B275433000DC395 /* NetworkInterchangableApp.swift in Sources */,
+				777CBB6E2B276E1E000DC395 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
