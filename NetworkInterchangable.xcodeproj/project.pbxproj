@@ -11,6 +11,8 @@
 		777CBB582B275433000DC395 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB572B275433000DC395 /* ContentView.swift */; };
 		777CBB5A2B275434000DC395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777CBB592B275434000DC395 /* Assets.xcassets */; };
 		777CBB5D2B275434000DC395 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777CBB5C2B275434000DC395 /* Preview Assets.xcassets */; };
+		777CBB652B275492000DC395 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB642B275492000DC395 /* UserModel.swift */; };
+		777CBB682B2754A5000DC395 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CBB672B2754A5000DC395 /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		777CBB572B275433000DC395 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		777CBB592B275434000DC395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		777CBB5C2B275434000DC395 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		777CBB642B275492000DC395 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		777CBB672B2754A5000DC395 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,9 @@
 		777CBB542B275433000DC395 /* NetworkInterchangable */ = {
 			isa = PBXGroup;
 			children = (
+				777CBB692B2754AB000DC395 /* ViewModel */,
+				777CBB662B275497000DC395 /* Service */,
+				777CBB632B275476000DC395 /* Model */,
 				777CBB552B275433000DC395 /* NetworkInterchangableApp.swift */,
 				777CBB572B275433000DC395 /* ContentView.swift */,
 				777CBB592B275434000DC395 /* Assets.xcassets */,
@@ -65,6 +72,29 @@
 				777CBB5C2B275434000DC395 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		777CBB632B275476000DC395 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				777CBB642B275492000DC395 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		777CBB662B275497000DC395 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				777CBB672B2754A5000DC395 /* Webservice.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		777CBB692B2754AB000DC395 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				777CBB582B275433000DC395 /* ContentView.swift in Sources */,
+				777CBB652B275492000DC395 /* UserModel.swift in Sources */,
+				777CBB682B2754A5000DC395 /* Webservice.swift in Sources */,
 				777CBB562B275433000DC395 /* NetworkInterchangableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
